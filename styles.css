@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(purple,grey);
+    transition: box-shadow, 100ms;
+}
+
+h1, .circle{
+    margin: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.circle:hover{
+    box-shadow: 10px 10px 0px red;
+}
